@@ -1,0 +1,28 @@
+
+/* Hebrew Font for all web site ! */
+@font-face{
+    font-family: "Abraham-Regular";
+    src: url("../../Fonts/Abraham-Regular.woff");
+    /* unicode-range: U+590–5FF; */
+    /* unicode-range: U+FB00–FB4F; */
+    
+    /* U+05D0-05EA */
+}
+
+/* Hebrew Font only for web Logo ! */
+@font-face{
+    font-family: "DanaYadAlefAlefAlef-Normal";
+    src: url("../../Fonts/DanaYadAlefAlefAlef-Normal.woff");
+}
+
+/* English Font for all web site ! */
+@font-face{
+    font-family: "Varela-Regular";
+    src: url("../../Fonts/Varela-Regular.ttf");
+}
+
+*{
+    font-family: Abraham-Regular, Varela-Regular, Arial, Helvetica, sans-serif;
+    /* font-size: 30px; */
+
+}
